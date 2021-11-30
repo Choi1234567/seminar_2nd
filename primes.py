@@ -15,4 +15,5 @@ def get_primes(n):
     return ans
 
 
-assert [2, 3, 5, 7, 11] == sorted(get_primes(11))
+if __name__ == '__main__':
+    assert [2, 3, 5, 7, 11] == sorted(get_primes(11))
